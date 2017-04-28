@@ -13,6 +13,7 @@
 		449F600E1EB4040E00292C72 /* DoIt.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 449F600C1EB4040E00292C72 /* DoIt.xcdatamodeld */; };
 		449F60101EB4040E00292C72 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 449F600F1EB4040E00292C72 /* Assets.xcassets */; };
 		449F60131EB4040E00292C72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 449F60111EB4040E00292C72 /* LaunchScreen.storyboard */; };
+		449F601B1EB4087500292C72 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449F601A1EB4087500292C72 /* Task.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		449F600F1EB4040E00292C72 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		449F60121EB4040E00292C72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		449F60141EB4040E00292C72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		449F601A1EB4087500292C72 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				449F60111EB4040E00292C72 /* LaunchScreen.storyboard */,
 				449F60141EB4040E00292C72 /* Info.plist */,
 				449F600C1EB4040E00292C72 /* DoIt.xcdatamodeld */,
+				449F601A1EB4087500292C72 /* Task.swift */,
 			);
 			path = DoIt;
 			sourceTree = "<group>";
@@ -139,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				449F601B1EB4087500292C72 /* Task.swift in Sources */,
 				449F600E1EB4040E00292C72 /* DoIt.xcdatamodeld in Sources */,
 				449F60081EB4040E00292C72 /* ViewController.swift in Sources */,
 				449F60061EB4040E00292C72 /* AppDelegate.swift in Sources */,
